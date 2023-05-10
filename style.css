@@ -9,3 +9,8 @@
     margin-left: 10px;
     margin-right: 10px
 }
+
+.nav-item.custom-button:hover {
+    background-color: rgb(238, 238, 238);
+    border: 1px solid black;
+  }
