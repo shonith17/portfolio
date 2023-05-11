@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(255, 247, 236);
+    background-color: rgb(249, 243, 235);
+    font-family: 'Barlow', sans-serif;
 }
 .fa {
     padding-right: 10px;
@@ -24,11 +25,18 @@ body {
   }
 
   .rounded-more {
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .aspectRatioBox {
     padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
     background-size: cover;
     background-position: center;
+}
+
+.aspectRatioBox2 {
+    padding-top: calc(5 / 4 * 100%); /* aspect ratio 4:5 */
+    background-size: cover;
+    background-position: center;
+    max-height: 100px;
 }
