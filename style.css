@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(255, 247, 236);
+}
 .fa {
     padding-right: 10px;
 }
@@ -13,4 +16,20 @@
 .nav-item.custom-button:hover {
     background-color: rgb(238, 238, 238);
     border: 1px solid black;
+  }
+
+  .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .rounded-more {
+    border-radius: 15px;
+}
+
+  @media (min-width: 768px) {
+    #shon {
+      padding-top: calc(2 / 3.5 * 100%);
+      /* change to landscape aspect ratio on md breakpoint and up */
+    }
   }
