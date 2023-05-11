@@ -86,3 +86,8 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+#comingsoon {
+    font-size: 150px;
+    text-align: center;
+}
