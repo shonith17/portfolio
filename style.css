@@ -78,6 +78,10 @@ body {
     .gallery {
         grid-template-columns: repeat(3, 1fr);
     }
+    .home-links .fa-arrow-down,
+    .home-links .fa-arrow-up {
+        display: none;
+      }
 }
 
 
@@ -85,6 +89,10 @@ body {
     .gallery {
         grid-template-columns: 1fr;
     }
+    .home-links .fa-arrow-right,
+    .home-links .fa-arrow-left {
+        display: none;
+      }
 }
 
 #comingsoon {
