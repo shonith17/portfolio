@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="png" href="./images/logo.png">
+    <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/168cbe947c.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -22,9 +24,6 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                     <li class="nav-item rounded-pill btn btn-sm btn-outline-light py-0 px-1 border-0 custom-button">
-                        <a class="nav-link" aria-current="page" href="about.html">ABOUT</a>
-                    </li>
-                    <li class="nav-item rounded-pill btn btn-sm btn-outline-light py-0 px-1 border-0 custom-button">
                         <a class="nav-link" href="digital.html"><i class="fa fa-solid fa-camera"></i>DIGITAL</a>
                     </li>
                     <li class="nav-item rounded-pill btn btn-sm btn-outline-light py-0 px-1 border-0 custom-button">
@@ -33,7 +32,10 @@
                     <li class="nav-item rounded-pill btn btn-sm btn-outline-light py-0 px-1 border-0 custom-button">
                         <a class="nav-link" aria-current="page" href="projects.html">PROJECTS</a>
                     </li>
-                    <li class="nav-item dropdown rounded-pill btn-outline-light btn btn-sm py-0 px-1 border-1">
+                    <li class="nav-item rounded-pill btn btn-sm btn-outline-light py-0 px-1 border-0 custom-button">
+                        <a class="nav-link" aria-current="page" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown rounded-pill btn-outline-light btn btn-sm py-0 px-1 border-1 social-button">
                         <a class="nav-link dropdown-toggle-no-caret" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         SOCIAL <i class="fas fa-chevron-down"></i>
                         </a>
@@ -52,40 +54,81 @@
     </nav>
     <!-- Images go here -->
 
-    <div class="container-xxl">
-        <div class="gallery pt-5 pb-5">
-            <img class="rounded-more" src="./images/digital1.jpg">
-            <img class="rounded-more" src="./images/digital9.jpg">
-            <img class="rounded-more" src="./images/digital4.jpg">
-            <img class="rounded-more" src="./images/digital7.jpg">
-            <img class="rounded-more" src="./images/digital2.jpg">
-            <img class="rounded-more" src="./images/digital8.jpg">
-            <img class="rounded-more" src="./images/digital5.jpg">
-            <img class="rounded-more" src="./images/digital6.jpg">
-            <img class="rounded-more" src="./images/digital3.jpg">
-            <img class="rounded-more" src="./images/digital10.jpg">
-            <img class="rounded-more" src="./images/digital12.jpg">
-            <img class="rounded-more" src="./images/digital15.jpg">
-            <img class="rounded-more" src="./images/digital11.jpg">
-            <img class="rounded-more" src="./images/digital13.jpg">
-            <img class="rounded-more" src="./images/digital14.jpg">
-            <img class="rounded-more" src="./images/digital16.jpg">
-            <img class="rounded-more" src="./images/digital18.jpg">
-            <img class="rounded-more" src="./images/digital20.jpg">
-            <img class="rounded-more" src="./images/digital17.jpg">
-            <img class="rounded-more" src="./images/digital19.jpg">
-            <img class="rounded-more" src="./images/digital24.jpg">
-            <img class="rounded-more" src="./images/digital21.jpg">
-            <img class="rounded-more" src="./images/digital22.jpg">
-            <img class="rounded-more" src="./images/digital23.jpg">
+    <section class="container-xxl content">
+        <div class="gallery pb-5">
+            <img class="rounded-more scroll-animation" src="./images/digital1.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital9.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital4.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital7.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital2.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital8.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital5.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital6.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital3.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital10.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital12.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital15.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital11.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital13.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital14.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital16.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital18.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital20.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital17.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital19.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital24.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital21.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital22.jpg">
+            <img class="rounded-more scroll-animation" src="./images/digital23.jpg">
         </div>
-    </div>
-    <footer>
-        <div class="container-xxl">
-        <a class="pb-4" href="https://www.altcademy.com/" target="_blank" style="text-decoration: none; color: black;">Part of Altcademy's Fullstack Program</a>
-    </div>
-    </footer>
+    </section>
+    <footer class="container-xxl footer-box scroll-animation">
+      <div class="row">
+          <div class="col-md-4">
+              <p> Hire Shon: shonpurdy@gmail.com</p>
+              <a href="https://www.instagram.com/shonith/" class="footer-links"><i class="fa fa-brands fa-instagram"></i></a>
+              <a href="https://twitter.com/ShonPurdy" class="footer-links"><i class="fa fa-brands fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/shon-purdy-791322276/" class="footer-links"><i class="fa fa-brands fa-linkedin"></i></a>
+          </div>
+          <div class="col-md-4">
+              <h3>Newsletter: </h3>
+              <p>Subscribe for first access to new work!</p>
+          </div>
+          <div class="col-md-4">
+              <form>
+                  <div class="row">
+                      <div class="col-12 form-floating mb-3">
+                          <input type="text" class="form-control" id="floatingInput" placeholder="Email">
+                          <label class="ps-4" for="floatingInput" style="color: black;">Email</label>
+                      </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-  </body>
+  <script>
+      const scrollElements = document.querySelectorAll('.scroll-animation');
+
+function animateOnScroll() {
+  scrollElements.forEach(function(element) {
+    if (isElementInViewport(element, 1 / 3)) {
+      element.classList.add('visible');
+    }
+  });
+}
+  
+function isElementInViewport(element, threshold) {
+  var rect = element.getBoundingClientRect();
+  var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+  var elementHeight = element.offsetHeight;
+  var triggerPoint = windowHeight - (elementHeight * threshold);
+  return rect.top <= triggerPoint;
+}
+
+window.addEventListener('scroll', animateOnScroll);
+animateOnScroll();
+  </script>
+</body>
 </html>
