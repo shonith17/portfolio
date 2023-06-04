@@ -81,7 +81,7 @@ window.onscroll = function() {
   });
 
   setTimeout(function() {
-    element3.style.animationDelay = "2s";
+    element3.style.animationDelay = "4s";
     element3.classList.add('fade-in-icon');
   });
 
