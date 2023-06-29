@@ -39,7 +39,7 @@ const scrollElements = document.querySelectorAll('.scroll-animation');
 
 function animateOnScroll() {
   scrollElements.forEach(function(element) {
-    if (isElementInViewport(element, 1 / 2)) {
+    if (isElementInViewport(element, 1 / 3)) {
       element.classList.add('visible');
     }
   });
@@ -145,7 +145,7 @@ i++;
     item.innerHTML = "<animate id='a" + i + "' attributeName='stroke-dashoffset' begin='1.4s' dur='" + pathlength/130 + "'s to='0' fill='freeze' />"
   } else if (index == 7) {
     item.innerHTML = "<animate id='a" + i + "' attributeName='stroke-dashoffset' begin='2s' dur='" + pathlength/200 + "'s to='0' fill='freeze' />"
-  } else if (index ==8) {
+  } else if (index == 8) {
     item.innerHTML = "<animate id='a" + i + "' attributeName='stroke-dashoffset' begin='2.6s' dur='" + pathlength/230 + "'s to='0' fill='freeze' />"
   } else if (index >= 9 && index <= 11) {
     item.innerHTML = "<animate id='a" + i + "' attributeName='stroke-dashoffset' begin='3.4s' dur='" + pathlength/230 + "'s to='0' fill='freeze' />"

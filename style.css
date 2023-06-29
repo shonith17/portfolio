@@ -110,7 +110,8 @@ body {
       grid-template-columns: 1fr;
   }
   .home-links .fa-chevron-right,
-  .home-links .fa-chevron-left {
+  .home-links .fa-chevron-left,
+  .project-arrow {
       display: none;
     }
   #mountain {
@@ -124,6 +125,9 @@ body {
   }
   .film-pic {
       order: 2
+  }
+  .quiz-image {
+    flex-direction: column;
   }
 }
 
@@ -239,4 +243,30 @@ body {
   width: 100%;
   max-height: auto;
   position: relative;
+}
+
+.quiz-image {
+  display: flex;
+  gap: clamp(2em, 10vw, 10em);
+  justify-content: center;
+  align-items: center;
+  padding-top: 5em;
+}
+
+#quizzical {
+  max-width: 450px;
+  border-radius: 10px;;
+}
+
+.project-text {
+  font-size: clamp(1rem, 2rem, 2.5rem);
+}
+
+.project-links {
+  text-decoration: none;
+  color: white;
+}
+
+.project-links:hover {
+  color: rgb(146, 146, 146);
 }
