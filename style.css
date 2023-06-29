@@ -260,6 +260,7 @@ body {
 
 .project-text {
   font-size: clamp(1rem, 2rem, 2.5rem);
+  text-align: left;
 }
 
 .project-links {
@@ -269,4 +270,26 @@ body {
 
 .project-links:hover {
   color: rgb(146, 146, 146);
+}
+
+#quizzical {
+  transition: transform 0.3s ease;
+}
+
+#quizzical:hover {
+  opacity: 70%;
+  transform: translateY(-50px) rotate(5deg) scale(1.2);
+}
+
+.project-text-wrapper {
+  background-color: rgb(53, 53, 57);
+  padding-block: 20%;
+  padding-inline: 10%;
+  border-radius: 3em;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.project-text-wrapper:hover {
+  transform: translateY(-50px) rotate(-5deg) scale(1.2);
 }
