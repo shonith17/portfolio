@@ -27,7 +27,7 @@ body {
 }
 
 .nav-item.custom-button:hover, .nav-item.social-button:hover {
-  background-color: rgb(182, 182, 182);
+  background-color: rgb(206, 206, 206);
   color: white;
 }
 
@@ -272,24 +272,20 @@ body {
   color: rgb(146, 146, 146);
 }
 
-#quizzical {
-  transition: transform 0.3s ease;
-}
-
 #quizzical:hover {
-  opacity: 70%;
-  transform: translateY(-50px) rotate(5deg) scale(1.2);
+  opacity: 85%;
 }
 
 .project-text-wrapper {
-  background-color: rgb(53, 53, 57);
+  background-color: rgb(40, 40, 43);
   padding-block: 20%;
   padding-inline: 10%;
   border-radius: 3em;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s ease;
+  transition: transform 0.7s ease;
 }
 
 .project-text-wrapper:hover {
   transform: translateY(-50px) rotate(-5deg) scale(1.2);
+  transition: transform 0.3s ease;
 }
